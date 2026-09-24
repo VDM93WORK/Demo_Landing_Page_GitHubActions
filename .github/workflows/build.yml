@@ -27,4 +27,4 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Test
-        run: dotnet test ./Demo_Landing_Page_GitHubActions.Tests/Demo_Landing_Page_GitHubActions.Tests.csproj --no-build
+        run: dotnet test ./TestProject1/TestProject1.csproj --no-build
