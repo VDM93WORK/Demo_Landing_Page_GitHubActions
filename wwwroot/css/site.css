@@ -81,3 +81,36 @@ body {
     .about h2 {
         font-size: 36px;
     }
+
+.greeting-form {
+    margin-top: 25px;
+}
+
+    .greeting-form input {
+        padding: 14px 18px;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+.greeting-button {
+    border: none;
+    cursor: pointer;
+    background: #111827;
+    color: white;
+}
+
+    .greeting-button:hover {
+        background: #374151;
+    }
+
+.greeting-message {
+    margin: 25px auto 0;
+    max-width: 600px;
+    padding: 18px 25px;
+    border-radius: 10px;
+    background: #ecfdf5;
+    color: #065f46;
+    font-weight: 600;
+}

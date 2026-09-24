@@ -1,8 +1,11 @@
+using Demo_Landing_Page_GitHubActions.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Services.AddScoped<GreetingService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
