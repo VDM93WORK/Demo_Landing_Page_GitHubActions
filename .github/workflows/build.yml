@@ -1,4 +1,4 @@
-﻿```yaml
+﻿yaml
 name: Build .NET
 
 on:
@@ -36,4 +36,3 @@ jobs:
         with:
           name: app-publish
           path: ./publish
-```
