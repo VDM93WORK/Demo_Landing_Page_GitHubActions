@@ -1,5 +1,4 @@
-﻿yaml
-name: Build .NET
+﻿name: Build .NET
 
 on:
   push:
