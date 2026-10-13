@@ -1,4 +1,4 @@
-﻿
+﻿```yaml
 name: Build .NET
 
 on:
@@ -30,3 +30,10 @@ jobs:
 
       - name: Publish
         run: dotnet publish ./Demo_Landing_Page_GitHubActions/Demo_Landing_Page_GitHubActions.csproj --configuration Release --no-build --output ./publish
+
+      - name: Upload publish artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-publish
+          path: ./publish
+```
